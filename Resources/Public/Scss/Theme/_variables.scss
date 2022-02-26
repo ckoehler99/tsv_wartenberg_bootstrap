@@ -1,0 +1,22 @@
+//
+// Variables
+//
+$primary: #014876;
+$secondary: #72bf44;
+
+$footer-sections: () !default;
+$footer-sections: map-merge(
+                (
+                        content: (
+                                background:		$secondary,
+                                color:			$black,
+                                link-color:		$primary
+                        ),
+                        meta: (
+                                background:		$secondary,
+                                color:			$black,
+                                link-color:		$primary
+                        )
+                ),
+                $footer-sections
+);

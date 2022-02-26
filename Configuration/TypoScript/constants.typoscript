@@ -1,0 +1,59 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/constants.typoscript">
+
+
+############
+### PAGE ###
+############
+page {
+    logo {
+        file = EXT:tsv_wartenberg_bootstrap/Resources/Public/Images/logo.png
+        height = 95
+        width = 125
+        alt = tsv-wartenberg-bootstrap
+        linktitle = tsv-wartenberg-bootstrap
+    }
+    favicon {
+        file = EXT:tsv_wartenberg_bootstrap/Resources/Public/Icons/favicon.ico
+    }
+    fluidtemplate {
+        layoutRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Layouts/Page/
+        partialRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Partials/Page/
+        templateRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Templates/Page/
+    }
+}
+
+
+##################
+### EXTENSIONS ###
+##################
+plugin.bootstrap_package {
+    view {
+        layoutRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Layouts/
+        partialRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Partials/
+        templateRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Templates/
+    }
+}
+
+
+########################
+### CONTENT ELEMENTS ###
+########################
+plugin.bootstrap_package_contentelements {
+    view {
+        layoutRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Layouts/ContentElements/
+        partialRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Partials/ContentElements/
+        templateRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Templates/ContentElements/
+    }
+}
+
+
+################################
+### BOOTSTRAP SCSS CONSTANTS ###
+################################
+plugin.bootstrap_package.settings.scss {
+    primary = #eb3e4a
+    secondary = #013859
+}

@@ -1,0 +1,31 @@
+######################
+#### DEPENDENCIES ####
+######################
+<INCLUDE_TYPOSCRIPT: source="FILE:EXT:bootstrap_package/Configuration/TypoScript/setup.typoscript">
+
+
+##############
+#### PAGE ####
+##############
+page {
+    includeCSS {
+        theme = EXT:tsv_wartenberg_bootstrap/Resources/Public/Scss/Theme/theme.scss
+        custom = EXT:tsv_wartenberg_bootstrap/Resources/Public/Css/custom.css
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        tsv_wartenberg_bootstrap_scripts = EXT:tsv_wartenberg_bootstrap/Resources/Public/JavaScript/Dist/scripts.js
+    }
+}

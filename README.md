@@ -1,6 +1,6 @@
 Sitepackage for the project "tsv-wartenberg-bootstrap"
 ==============================================================
 
-Site package für den TSV Wartenberg
+Typo3 templates and layout for TSV Wartenberg website
 
 Github Actions publish changes in main branch via SSH

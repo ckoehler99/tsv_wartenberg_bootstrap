@@ -13,14 +13,6 @@ jobs:
     steps:
       - uses: actions/checkout@master
 
-      - name: Bucket actions
-        uses: actions/setup-node@v1
-        with:
-          node-version: 8
-      - run: npm i
-      - run: npm run test
-      - run: npm run generate
-      
       - name: Publish
         uses: ckoehler99/ssh-scp-deploy@master
         with:

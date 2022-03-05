@@ -29,3 +29,8 @@ page {
         tsv_wartenberg_bootstrap_scripts = EXT:tsv_wartenberg_bootstrap/Resources/Public/JavaScript/Dist/scripts.js
     }
 }
+
+##############
+#### News ####
+##############
+plugin.tx_news.settings.list.media.image.width = 100

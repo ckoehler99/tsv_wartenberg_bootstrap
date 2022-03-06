@@ -12,8 +12,8 @@ page {
         file = EXT:tsv_wartenberg_bootstrap/Resources/Public/Images/logo.png
         height = 95
         width = 125
-        alt = tsv-wartenberg-bootstrap
-        linktitle = tsv-wartenberg-bootstrap
+        alt = tsv-wartenberg
+        linktitle = tsv-wartenberg
     }
     favicon {
         file = EXT:tsv_wartenberg_bootstrap/Resources/Public/Icons/favicon.ico
@@ -26,6 +26,7 @@ page {
     
     theme {
         navigation.type = top
+        breadcrumb.enableLevel = 1
         language.enable = 0
         socialmedia.enable = 0
         copyright.enable = 0

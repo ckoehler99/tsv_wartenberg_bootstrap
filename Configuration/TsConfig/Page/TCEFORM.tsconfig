@@ -6,6 +6,15 @@ TCEFORM {
 
     }
     tt_content {
+        frame_class {
+            addItems {
+                jumbotron = jumbotron
+                well = well
+                swRahmen = swRahmen
+      	        hellblau = hellblau
+                }
+            }
+        }
 
     }
 }

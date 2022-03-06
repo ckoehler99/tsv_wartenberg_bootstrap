@@ -23,6 +23,18 @@ page {
         partialRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Partials/Page/
         templateRootPath = EXT:tsv_wartenberg_bootstrap/Resources/Private/Templates/Page/
     }
+    
+    theme {
+        navigation.type = top
+        language.enable = 0
+        socialmedia.enable = 0
+        copyright.enable = 0
+        cookieconsent.cookie.expiryDays = 20
+    }
+    
+    page {
+        tracking.google.trackingID = UA-44947660-1
+    }
 }
 
 

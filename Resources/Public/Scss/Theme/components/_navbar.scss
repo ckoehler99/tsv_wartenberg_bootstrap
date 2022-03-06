@@ -12,3 +12,12 @@
     color: #FFFFFF;
     background-color: #006813;
 }
+
+.dropdown-item.active, .dropdown-item:active {
+    color: #ffffff;
+    background-color: #006813;
+}
+
+.navbar-mainnavigation .navbar-nav>li>.nav-link:before {
+    background-color: #006813;
+}

@@ -10,8 +10,7 @@
 page {
     includeCSS {
         theme = EXT:tsv_wartenberg_bootstrap/Resources/Public/Scss/Theme/theme.scss
-        custom = EXT:tsv_wartenberg_bootstrap/Resources/Public/Css/custom.css
-    }
+        }
 
     includeJSLibs {
 

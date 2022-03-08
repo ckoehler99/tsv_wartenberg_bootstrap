@@ -13,8 +13,17 @@ TCEFORM {
                 swRahmen = swRahmen
       	        hellblau = hellblau
                 }
+            }    
+        imageorient {
+            removeItems = 1
+            types {
+                image {
+                    disabled = 1
+                }
+                media {
+                    disabled = 1
+                }
             }
         }
-
     }
 }

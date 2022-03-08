@@ -120,45 +120,7 @@ footer .container .row {
   background-color: #c9302c;
 }
 
-.frame-well {
-  background-color: #f0f0c0;/*blass gelb */
-  border: 1px solid #0C2CBB;  /* dunkelblau */
-  border-radius: 4px;
-  padding: 6px; /* WVe Innenabstand */
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
- }
-.frame-well blockquote {
-  border-color: #ddd; /* gold gelb*/
-  border-color: rgba(0, 0, 0, 0.15);
-}
-.frame-swRahmen  { 
-/* WVE 4.1.2019 neu defniert in TSConfig durch CK: schwarzer Rahmen auf Hintergrund weiß*/
-  margin-left: 0%; margin-right: 0%;/* ohne Einrücken*/
-  background-color: #FFFFFF;   /* weiß */
-  border: 1px solid #000000;  /* sw */
-  border-radius: 4px;
-  padding: 3px; /* Innenabstand */
-}
 
-.frame-hellblau  { /* 16.03.2021 WVe*/
-  min-height: 20px;
-  padding: 6px;   /* innenabstand*/
-  margin-bottom: 12px;
-  border: 1px solid #0C2CBB;  /* BEV dunkelblau */
-  border-radius: 3px;
-  background-color: #DBFFFF;  /* hellblau*/
-            /*background-color: #FDEED2;   BEV hellbraun*/
-  -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.05);
-  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.05);
-}
-  /* ck test 14.03.2021
-  margin-left: 0%; margin-right: 0%; ohne Einrücken
-  background-color: #dddddd;  grau 
-  border: 3px solid #000000;   sw 
-  border-radius: 3px;
-  padding: 3px; Innenabstand */
-/* ## */
 .frame-intend-left {
   min-height: 20px;
   padding: 6px;
@@ -197,29 +159,7 @@ footer .container .row {
  /* color: #3c763d;       gruen */
  color: #dff0d8;    /* blass gruen */
 }
-.frame-well-lg {
-  padding: 24px;  /*Innenabstand */
-  border-radius: 6px;
-  border: 2px solid #0C2CBB;  /* dunkelblau */
 
-}
-.frame-well-sm {
-  padding: 9px;
-  border-radius: 3px;
-  background-color: #C9FEC2;  /* blassgruen*/
-}
-.frame-jumbotron {
-  padding: 6px;
-  margin-bottom: 6px;  /*Bodenabstand */
-  color: inherit;
-  background-color: #FDEED2;  /* hellbraun*/
-  border: 2px solid #0C2CBB;  /* dunkelblau */
-  border-radius: 6px;
-}
-.frame-jumbotron h2, /* H2 statt H1*/
-.frame-jumbotron .h2 {
-  color: inherit; /* geerbt*/
-}
 a.text-success:hover {
   color: #2b542c;       /* dunkel gruen*/
 }

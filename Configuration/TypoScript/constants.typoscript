@@ -31,12 +31,16 @@ page {
         socialmedia.enable = 0
         copyright.enable = 0
         cookieconsent.cookie.expiryDays = 20
+        copyright.enable = 1
+        copyright.text = <p><a href="/footer/impressum-des-tsv-wartenbergs">Impressum</a>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp;<a href="/typo3">Login</a></p>
     }
     
     page {
         tracking.google.trackingID = UA-44947660-1
     }
 }
+
+
 
 
 ##################

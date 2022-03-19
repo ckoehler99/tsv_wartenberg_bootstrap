@@ -33,3 +33,5 @@ page {
 #### News ####
 ##############
 plugin.tx_news.settings.list.media.image.width = 100
+plugin.tx_news.settings.detail.media.image.maxWidth = 282
+plugin.tx_news.settings.detail.media.image.maxHeight = 100

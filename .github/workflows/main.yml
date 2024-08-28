@@ -1,6 +1,9 @@
 name: MasterCI
 
-on: [push]
+on:
+  push:
+    branches:
+      - main
 
 jobs:
   build:
@@ -17,7 +20,7 @@ jobs:
         with:
           src: ./main/*
           host: ${{ secrets.SSH_HOST }}
-          remote: ${{ env.SSH_DIR }}
+          remote: test2/
           port: ${{ secrets.SSH_PORT }}
           user: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}

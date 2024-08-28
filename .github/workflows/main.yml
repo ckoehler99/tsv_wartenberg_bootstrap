@@ -17,7 +17,7 @@ jobs:
         with:
           src: ./main/*
           host: ${{ secrets.SSH_HOST }}
-          remote: ${{ vars.SSH_DIR }}
+          remote: ${{ env.SSH_DIR }}
           port: ${{ secrets.SSH_PORT }}
           user: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}

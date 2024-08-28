@@ -20,7 +20,7 @@ jobs:
         with:
           src: ./main/*
           host: ${{ secrets.SSH_HOST }}
-          remote: test2/
+          remote: typo311-prod/typo3conf/ext/tsv_wartenberg_bootstrap/
           port: ${{ secrets.SSH_PORT }}
           user: ${{ secrets.SSH_USER }}
           key: ${{ secrets.SSH_KEY }}

@@ -1,0 +1,28 @@
+plugin:
+  bootstrap_package:
+    settings:
+      scss:
+        primary: '#eb3e4a'
+        secondary: '#013859'
+    view:
+      layoutRootPath: 'EXT:tsv_wartenberg/Resources/Private/Layouts/'
+      partialRootPath: 'EXT:tsv_wartenberg/Resources/Private/Partials/'
+      templateRootPath: 'EXT:tsv_wartenberg/Resources/Private/Templates/'
+  bootstrap_package_contentelements:
+    view:
+      layoutRootPath: 'EXT:tsv_wartenberg/Resources/Private/Layouts/ContentElements/'
+      partialRootPath: 'EXT:tsv_wartenberg/Resources/Private/Partials/ContentElements/'
+      templateRootPath: 'EXT:tsv_wartenberg/Resources/Private/Templates/ContentElements/'
+page:
+  logo:
+    file: 'EXT:tsv_wartenberg/Resources/Public/Images/logo.svg'
+    fileInverted: 'EXT:tsv_wartenberg/Resources/Public/Images/logo-inverted.svg'
+    width: 192
+    alt: 'My Sitepackage'
+    linktitle: 'My Sitepackage'
+  favicon:
+    file: 'EXT:tsv_wartenberg/Resources/Public/Icons/favicon.ico'
+  fluidtemplate:
+    layoutRootPath: 'EXT:tsv_wartenberg/Resources/Private/Layouts/Page/'
+    partialRootPath: 'EXT:tsv_wartenberg/Resources/Private/Partials/Page/'
+    templateRootPath: 'EXT:tsv_wartenberg/Resources/Private/Templates/Page/'

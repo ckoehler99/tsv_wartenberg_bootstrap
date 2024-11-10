@@ -1,21 +1,20 @@
 {
-    "name": "tsv-wartenberg/tsv-wartenberg-bootstrap",
+    "name": "ck99/tsv-wartenberg",
     "type": "typo3-cms-extension",
-    "description": "",
-    "homepage": "https://www.tsv-wartenberg.de/",
+    "description": "",    "homepage": "https://ck99.io",
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS"],
     "require": {
-        "bk2k/bootstrap-package": "^12.0"
+        "bk2k/bootstrap-package": "^15.0"
     },
     "autoload": {
         "psr-4": {
-            "TsvWartenberg\\TsvWartenbergBootstrap\\": "Classes/"
+            "Ck99\\TsvWartenberg\\": "Classes/"
         }
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "tsv_wartenberg_bootstrap"
+            "extension-key": "tsv_wartenberg"
         }
     }
 }

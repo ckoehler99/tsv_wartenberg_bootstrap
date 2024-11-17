@@ -1,7 +1,8 @@
 {
-    "name": "ck99/tsv-wartenberg",
+    "name": "tsv-wartenberg/tsv-wartenberg",
     "type": "typo3-cms-extension",
-    "description": "",    "homepage": "https://ck99.io",
+    "description": "",    
+    "homepage": "https://tsv-wartenberg.de",
     "license": ["GPL-2.0-or-later"],
     "keywords": ["TYPO3 CMS"],
     "require": {
@@ -9,7 +10,7 @@
     },
     "autoload": {
         "psr-4": {
-            "Ck99\\TsvWartenberg\\": "Classes/"
+            "TsvWartenberg\\TsvWartenberg\\": "Classes/"
         }
     },
     "extra": {

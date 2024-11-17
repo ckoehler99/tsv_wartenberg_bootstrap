@@ -13,7 +13,7 @@ $EM_CONF[$_EXTKEY] = [
     ],
     'autoload' => [
         'psr-4' => [
-            'Ck99\\TsvWartenberg\\' => 'Classes',
+            'TsvWartenberg\\TsvWartenbergBootstrap\\' => 'Classes',
         ],
     ],
     'state' => 'stable',
@@ -22,6 +22,6 @@ $EM_CONF[$_EXTKEY] = [
     'clearCacheOnLoad' => 1,
     'author' => 'Christian Köhler',
     'author_email' => 'ckoehler99@gmail.com',
-    'author_company' => 'CK99',
+    'author_company' => 'TSV Wartenberg',
     'version' => '1.0.0',
 ];

@@ -1,0 +1,21 @@
+page {
+    includeCSS {
+        theme = EXT:tsv_wartenberg/Resources/Public/Scss/Theme/theme.scss
+    }
+
+    includeJSLibs {
+
+    }
+
+    includeJS {
+
+    }
+
+    includeJSFooterlibs {
+
+    }
+
+    includeJSFooter {
+        tsv_wartenberg_scripts = EXT:tsv_wartenberg/Resources/Public/JavaScript/main.js
+    }
+}

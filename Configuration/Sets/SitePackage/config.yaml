@@ -1,0 +1,4 @@
+name: ck99/tsv-wartenberg
+label: 'TSV Wartenberg'
+dependencies:
+  - bootstrap-package/full

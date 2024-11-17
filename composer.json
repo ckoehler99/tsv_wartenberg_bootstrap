@@ -1,5 +1,5 @@
 {
-    "name": "tsv-wartenberg/tsv-wartenberg",
+    "name": "tsv-wartenberg/tsv-wartenberg-bootstrap",
     "type": "typo3-cms-extension",
     "description": "",    
     "homepage": "https://tsv-wartenberg.de",
@@ -10,12 +10,12 @@
     },
     "autoload": {
         "psr-4": {
-            "TsvWartenberg\\TsvWartenberg\\": "Classes/"
+            "TsvWartenberg\\TsvWartenbergBootstrap\\": "Classes/"
         }
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "tsv_wartenberg"
+            "extension-key": "tsv_wartenberg_bootstrap"
         }
     }
 }
